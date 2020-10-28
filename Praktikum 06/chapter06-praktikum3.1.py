@@ -1,0 +1,20 @@
+from operation import*
+print('2 + 4 * 6 – 4 = ',end='')
+x= kali(4,6)
+y= jumlah(2,x)
+z= kurang(y,4)
+print(z)
+
+print('(4 + 7) * (6 - 9) = ',end='')
+a= jumlah(4,7)
+b= kurang(6,9)
+c= kali(a,b)
+print(c)
+
+print('(10 + 2) / (7 + 5) / (12 - 34) = ',end='')
+p= jumlah(10,4)
+q= jumlah(7,5)
+r= kurang(12,34)
+s= bagi(p,q)
+t= bagi (s,r)
+print(t)
