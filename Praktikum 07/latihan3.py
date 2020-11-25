@@ -7,8 +7,8 @@ jumlahbilangan=0
 while(bilangan==True):
     try:
         inputbilangan= int(input('Masukkan Bilangan Bulat : '))
-        jumlah=+inputbilangan
-        jumlahbilangan=+1
+        jumlah+=inputbilangan
+        jumlahbilangan+=1
         pilihan= input('Ingin memasukkan bilangan lagi?(y/n): ')
         if(pilihan=='y'):
             bilangan=True
